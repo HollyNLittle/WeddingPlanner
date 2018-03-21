@@ -1,0 +1,185 @@
+﻿body {
+    background: linear-gradient(white,beige,#f3ece7);
+    margin: 0;
+}
+
+h1, h2 {
+    font-family: 'Playfair Display';
+}
+
+a {
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: none;
+    }
+
+.button {
+    background-color: #d3c4be; /* Green */
+    border: none;
+    color: beige;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+    .button:hover {
+        background-color:#c4bdac; /* Green */
+        color: white;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+.glyphicon {
+    font-size: 5rem;
+    color: #d3c4be;
+    border-radius:50%;
+    background:radial-gradient(white,#f4eee1,white);
+    padding:15px;
+    border:1px solid rgb(217,168,143);
+    box-shadow:0px 0px 15px white inset;
+    text-shadow:-3px 5px 1px dimgrey;
+}
+
+#navigation {
+    padding: 2vh 0 4vh 0;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+    background: rgba(255, 255, 255, 0.9);
+}
+
+    #navigation a {
+        color: gray;
+        font-size: 2.5rem;
+        margin-right: 3vw;
+    }
+
+        #navigation a:hover {
+            color: palevioletred;
+        }
+
+        #navigation a:active {
+            color: lightgray;
+        }
+
+        #navigation a:current {
+            color: plum;
+        }
+
+    #navigation .current {
+        color: plum;
+    }
+
+/*home page*/
+header {
+    color:dimgrey;
+    margin: 5vh 0 10vh 0;
+    text-align: center;
+    font-size: 3rem;
+}
+
+    header h1 {
+        margin: 20vh 0 3vh 0;
+        text-align: center;
+        font-size: 7rem;
+        font-weight: 900;
+    }
+
+    header p {
+        margin: 3vh;
+    }
+
+#sheer-section {
+    background: rgba(240,240,245,0.6);
+    padding: 1px 10px 25px 10px;
+}
+/*checkerboard*/
+.checkerboard {
+    margin: 0 7vw;
+}
+
+.row-1 {
+    background: #ebcfc4;
+    margin: 7vh 0;
+}
+
+
+.text-box-1, .text-box-2 {
+    text-align: center;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 2rem;
+}
+
+.text-box-1 {
+    margin: 0 3vw 0 0;
+    background:#f3ece7;
+    border-radius:0;
+}
+
+.text-box-2 {
+    margin: 0 0 0 3vw;
+}
+/*another-row*/
+.another-row {
+    padding: 7vh 5vw;
+    margin: 5vh 5vw;
+    background: antiquewhite;
+    font-size: 2rem;
+}
+/*reviews*/
+.review-box {
+    text-align: center;
+    padding: 10px 20px;
+    background: white;
+    font-size: 2rem;
+    margin: 4vh 0;
+}
+
+    .review-box .reviews {
+        text-align: center;
+        margin: 0 3vw;
+    }
+
+    .review-box .glyphicon {
+        color: white;
+        background: gold;
+        padding: 2px;
+        border-radius: 8px;
+        font-size: 3rem;
+    }
+.signature {
+    font-family: 'Segoe Script';
+    font-weight: 900;
+    font-size: 2rem;
+}
+/*footer*/
+footer {
+    text-align: center;
+    background: dimgrey;
+    box-shadow: 0px 3px 20px rgb(50,50,50)inset;
+    padding-top: 10px;
+}
+
+    footer a {
+        font-family: 'Playfair Display';
+        font-size: 2.5rem;
+        color: darkgray;
+        font-weight: 900;
+        margin: 1vh 0 0 0;
+    }
+
+        footer a:hover {
+            font-family: 'Playfair Display';
+            font-size: 2.5rem;
+            color: gainsboro;
+            font-weight: 900;
+            margin: 1vh 0 0 0;
+        }
+
+    footer .glyphicon:hover {
+        color: lightpink;
+    }

@@ -1,0 +1,204 @@
+﻿body {
+    background: linear-gradient(antiquewhite,rgb(255,250,235),white,beige);
+    margin: 0;
+}
+
+h1, h2, h3 {
+    /*font-family: 'Playfair Display';*/
+    font-family: 'Plantagenet Cherokee';
+}
+
+a {
+    text-decoration: none;
+    font-family: 'Plantagenet Cherokee';
+    background:rgba(255,255,255,0.4);
+    padding:3%;
+    border-radius:10%;
+    margin:0 0 0 3%;
+}
+
+    a:hover {
+        text-decoration: none;
+        background-color: ivory;
+    }
+
+.button {
+    background: rgb(234,168,143);
+    border: none;
+    color: #FCE4E1;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+    .button:hover {
+    background: #9FC1C7;
+        color: azure;
+        box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+    }
+
+.glyphicon {
+    font-size: 5rem;
+    color: antiquewhite;
+    border-radius: 50%;
+    background: radial-gradient(antiquewhite,white);
+    padding: 15px;
+    border: 1px solid antiquewhite;
+    box-shadow: 0px 0px 7px beige inset;
+    text-shadow: -3px 5px 5px grey,0 0 15px rgba(0,0,0,0.2);
+}
+
+#navigation {
+    padding: 1.5vh 0 4vh 0;
+    box-shadow: 0 5px 30px rgba(0,0,30,0.2);
+    background: rgba(255, 255, 255, 0.7);
+    background:linear-gradient(ivory,rgba(255, 255, 255, 0.7));
+}
+
+    #navigation a {
+        color: gray;
+        font-size: 2.5rem;
+        margin-right: 3vw;
+    }
+
+        #navigation a:hover {
+            color: palevioletred;
+        }
+
+        #navigation a:active {
+            color: lightgray;
+        }
+
+        #navigation a:current {
+            color: plum;
+        }
+
+    #navigation .current {
+        color: plum;
+    }
+
+/*home page*/
+header {
+    color: dimgrey;
+    margin: 3vh 0 3vh 0;
+    padding: 7vh 5vw;
+    text-align: center;
+    font-size: 3rem;
+    background-image: url('Image/BeachBride15.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+    header h1 {
+        margin: 20vh 0 3vh 0;
+        text-align: center;
+        font-size: 7rem;
+        font-weight: 900;
+    }
+
+    header p {
+        margin: 3vh;
+    }
+
+#sheer-section {
+    background: rgba(240,240,245,0.6);
+    padding: 1vh 1vw 3vh 1vw;
+}
+/*checkerboard*/
+.checkerboard {
+    margin: 0 7vw;
+}
+
+.row-1 {
+    background: #ebcfc4;
+    margin: 7vh 0;
+}
+
+    .row-1 img {
+        margin: 0 0 0 3vw;
+    }
+
+.text-box-1, .text-box-2 {
+    text-align: center;
+    box-shadow: 0 5px 50px rgba(0,0,0,0.1);
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 2rem;
+}
+
+.text-box-1 {
+    margin: 24vh 2vw 0 2vw;
+    padding: 10vh 2vw;
+    background: rgba(200,200,200,0.4);
+    border-radius: 0;
+}
+
+.text-box-2 {
+    margin: 0 0 0 3vw;
+}
+/*another-row*/
+.another-row {
+    padding: 7vh 5vw;
+    margin: 5vh 5vw;
+    background: antiquewhite;
+    font-size: 2rem;
+}
+/*reviews*/
+.review-box {
+    text-align: center;
+    padding: 10px 20px;
+    background: white;
+    font-size: 2rem;
+    margin: 4vh 0;
+}
+
+    .review-box .reviews {
+        text-align: center;
+        margin: 0 3vw;
+    }
+
+    .review-box .glyphicon {
+        color: rgb(255,250,137);
+        background: gold;
+        padding: 3px;
+        border-radius: 8px;
+        font-size: 3rem;
+        text-shadow: 0 0 rgb(255,255,255);
+    }
+
+.signature {
+    font-family: 'Segoe Script';
+    font-weight: 900;
+    font-size: 2rem;
+}
+/*footer*/
+footer {
+    text-align: center;
+    background: dimgrey;
+    box-shadow: 0px 3px 20px rgb(50,50,50)inset;
+    padding-top: 10px;
+}
+
+    footer a {
+        font-family: 'Playfair Display';
+        font-size: 2.5rem;
+        color: darkgray;
+        font-weight: 900;
+        margin: 1vh 0 0 0;
+    }
+
+        footer a:hover {
+            font-family: 'Playfair Display';
+            font-size: 2.5rem;
+            color: gainsboro;
+            font-weight: 900;
+            margin: 1vh 0 0 0;
+        }
+
+    footer .glyphicon:hover {
+        color: lightpink;
+    }
